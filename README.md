@@ -79,38 +79,80 @@ PORTFOLIO/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
-- npm or yarn
+- npm
 
 ### Installation
 
-1. Clone the repository:
+Clone the repository:
+
 ```bash
-git clone https://github.com/adityarajsrv/portfolio.git
-cd portfolio/frontend
+git clone https://github.com/krisha2551/fullstack-portfolio.git
+cd fullstack-portfolio
 ```
 
-2. Install dependencies:
+Install dependencies:
+
+### Frontend
+
 ```bash
+cd frontend
 npm install
-# or
-yarn install
 ```
 
-3. Start the development server:
+### Backend
+
 ```bash
+cd backend
+npm install
+```
+
+---
+
+## 💻 Run Locally
+
+### Terminal 1 — Frontend
+
+```bash
+cd frontend
 npm run dev
-# or
-yarn dev
 ```
 
-4. Open [http://localhost:5173](http://localhost:5173) in your browser
+### Terminal 2 — Backend
 
-### Build for Production
 ```bash
+cd backend
+npm run dev
+```
+
+Frontend:
+
+```text
+http://localhost:5173
+```
+
+Backend:
+
+```text
+http://localhost:5000
+```
+
+---
+
+## 🏗️ Build for Production
+
+### Frontend
+
+```bash
+cd frontend
 npm run build
-# or
-yarn build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
 ```
 
 ## 🎨 Components
@@ -160,8 +202,7 @@ If you find this project helpful or interesting, please consider giving it a sta
 
 ## 👨‍💻 Author
 
-**Aditya Raj Srivastava**
-- GitHub: [@adityarajsrv](https://github.com/adityarajsrv)
-- LinkedIn: [Aditya Raj Srivastava](https://www.linkedin.com/in/adityarajsrv)
-
+**Krisha Jasani**
+- GitHub: [@krisha2551](https://github.com/krisha2551)
+- LinkedIn: [Krisha Jasani](https://www.linkedin.com/in/krishajasani/)
 ---
