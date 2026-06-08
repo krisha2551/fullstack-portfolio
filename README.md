@@ -1,208 +1,176 @@
 # 🚀 Full Stack Developer Portfolio
 
-A sleek, responsive portfolio website showcasing projects, skills, and contact information with modern animations and interactive UI elements.
+A sleek, responsive portfolio website showcasing my projects, technical skills, and experience as a Full Stack MERN Developer. Built with modern technologies, smooth animations, and an interactive user experience.
 
 ## ✨ Features
 
-- **Responsive Design** - Fully responsive across all device sizes
-- **Modern UI/UX** - Clean, professional design with subtle animations
-- **Interactive Components** - Dynamic typing effects, animated cards, smooth scrolling
-- **Project Showcase** - Featured projects with detailed descriptions
-- **Tech Stack Display** - Organized technology skills by category
-- **Loading Screen** - Elegant loading animation with progress indicator
-- **Contact Section** - Easy email copy and social media links
+* **Responsive Design** – Optimized for mobile, tablet, and desktop devices
+* **Modern UI/UX** – Clean and professional design
+* **Interactive Components** – Smooth animations and engaging user experience
+* **Project Showcase** – Highlighting featured development projects
+* **Tech Stack Section** – Organized display of technologies and tools
+* **Resume Download** – Easy access to resume
+* **Contact Form** – Direct communication through email integration
+* **Loading Animation** – Custom loading screen experience
 
 ## 🛠️ Tech Stack
 
-- **React** - Frontend framework
-- **Tailwind CSS** - Styling and responsive design
-- **Framer Motion** - Smooth animations and transitions
-- **GSAP** - Advanced animations for loading screen
-- **Lucide React & React Icons** - Icon library
-- **Vite** - Fast build tool and development server
+### Frontend
+
+* React.js
+* Vite
+* Tailwind CSS
+* Framer Motion
+* GSAP
+* React Icons
+* Lucide React
+
+### Backend
+
+* Node.js
+* Express.js
+* Resend API
+
+### Deployment
+
+* Vercel
+* Render
 
 ## 📁 Project Structure
 
-```
+```bash
 PORTFOLIO/
 │
-├── frontend/
-│   ├── node_modules/                    # Project dependencies
-│   ├── public/                          # Static assets
-│   │   ├── Resume.pdf                   # Resume PDF file
-│   │   ├── vite.svg                     # Vite logo
-│   │   └── index.html                   # Main HTML file
-│   │
-│   └── src/
-│       ├── assets/                      # Images and media files
-│       │   ├── careerquill.png          # Project screenshot
-│       │   ├── flowmind.png             # Project screenshot
-│       │   ├── proctorly.png            # Project screenshot
-│       │   ├── hireme.png               # Project screenshot
-│       │   ├── profile.png              # Profile image
-│       │   └── passport_size.jpg        # Small profile image
-│       │
-│       ├── components/                  # React components
-│       │   ├── ui/                      # Reusable UI components
-│       │   │   ├── ProfileCard.css      # Profile card styles
-│       │   │   ├── BackgroundCard.css   # Background card styles
-│       │   │   ├── ProfileCard.jsx      # Profile card component
-│       │   │   └── TextType.jsx         # Typing animation component
-│       │   │
-│       │   ├── About.jsx                # About section component
-│       │   ├── Contact.jsx              # Contact section component
-│       │   ├── Footer.jsx               # Footer component
-│       │   ├── Hero.jsx                 # Hero section component
-│       │   ├── LoadingScreen.jsx        # Loading screen component
-│       │   ├── Navbar.jsx               # Navigation bar component
-│       │   ├── Projects.jsx             # Projects section component
-│       │   └── Stack.jsx                # Tech stack section component
-│       │
-│       ├── pages/                       # Page components
-│       │   └── Portfolio.jsx            # Main portfolio page
-│       │
-│       ├── App.css                      # Global application styles
-│       ├── App.jsx                      # Main App component
-│       ├── index.css                    # Base styles and Tailwind imports
-│       └── main.jsx                     # Application entry point
+├── backend/
+│   ├── .env
+│   ├── package.json
+│   ├── package-lock.json
+│   └── server.js
 │
-├── .gitignore                           # Git ignore file
-├── .eslintrc.json                       # ESLint configuration
-├── index.html                           # Root HTML file (Vite default)
-├── package-lock.json                    # NPM lock file
-├── package.json                         # Project dependencies and scripts
-├── README.md                            # Project documentation
-├── vite.config.js                       # Vite configuration
-└── .env                                 # Environment variables (optional)
+├── frontend/
+│   ├── public/
+│   │   ├── favicon.png
+│   │   ├── Resume.pdf
+│   │   └── vite.svg
+│   │
+│   ├── src/
+│   │   ├── assets/
+│   │   │   ├── profile.png
+│   │   │   ├── passport_size.jpg
+│   │   │   ├── quicknest.png
+│   │   │   ├── ecommerce-api.png
+│   │   │   ├── library-api.png
+│   │   │   └── travel-explorer.png
+│   │   │
+│   │   ├── components/
+│   │   │   ├── ui/
+│   │   │   ├── About.jsx
+│   │   │   ├── Contact.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── LoadingScreen.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Projects.jsx
+│   │   │   └── Stack.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   └── Portfolio.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
+│   │
+│   ├── package.json
+│   ├── vite.config.js
+│   └── index.html
+│
+└── README.md
 ```
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
-- npm
+* Node.js (v18 or higher)
+* npm
 
 ### Installation
 
-Clone the repository:
+1. Clone the repository
 
 ```bash
 git clone https://github.com/krisha2551/fullstack-portfolio.git
-cd fullstack-portfolio
 ```
 
-Install dependencies:
-
-### Frontend
+2. Install frontend dependencies
 
 ```bash
 cd frontend
 npm install
 ```
 
-### Backend
+3. Install backend dependencies
 
 ```bash
-cd backend
+cd ../backend
 npm install
 ```
 
----
-
-## 💻 Run Locally
-
-### Terminal 1 — Frontend
+4. Run the frontend
 
 ```bash
 cd frontend
 npm run dev
 ```
 
-### Terminal 2 — Backend
+5. Run the backend
 
 ```bash
 cd backend
-npm run dev
+npm start
 ```
 
-Frontend:
+## 🎨 Main Sections
 
-```text
-http://localhost:5173
-```
+* Hero Section
+* About Me
+* Tech Stack
+* Featured Projects
+* Contact Form
+* Footer
 
-Backend:
+## 🎯 Featured Projects
 
-```text
-http://localhost:5000
-```
+* 🏠 QuickNest
+* 📚 Library Management System API
+* 🛒 E-Commerce API
+* ✈️ Travel Explorer
 
----
+## 🌐 Live Demo
 
-## 🏗️ Build for Production
+Portfolio Website:
 
-### Frontend
+https://fullstack-portfolio-red-eight.vercel.app
 
-```bash
-cd frontend
-npm run build
-```
+## 📫 Connect With Me
 
-### Preview Production Build
+**GitHub**
+https://github.com/krisha2551
 
-```bash
-npm run preview
-```
-
-## 🎨 Components
-
-- **Navbar** - Responsive navigation with mobile menu
-- **Hero** - Animated introduction with typing effect
-- **About** - Personal info with resume viewer
-- **Stack** - Interactive tech stack display with filtering
-- **Projects** - Project cards with expandable tech details
-- **Contact** - Email copy functionality and social links
-- **Background** - Animated gradient background
-- **LoadingScreen** - Custom loading animation
-
-## 📱 Responsive Breakpoints
-
-- Mobile: < 640px
-- Tablet: 640px - 1024px
-- Desktop: 1024px - 1280px
-- Large Desktop: > 1280px
-
-## 🎯 Key Features
-
-- **Smooth Scrolling** - Navigation with scroll offset for fixed navbar
-- **Section Observers** - Active navigation highlighting
-- **Mobile-Friendly** - Hamburger menu and optimized layouts
-- **Performance** - Optimized images and lazy loading
-- **Accessibility** - Semantic HTML and ARIA labels
-
-## 🔧 Customization
-
-1. Update personal information in respective components
-2. Replace images in `/src/assets/`
-3. Modify colors in Tailwind configuration
-4. Update project data in `Projects.jsx` and `Stack.jsx`
+**LinkedIn**
+https://www.linkedin.com/in/krishajasani/
 
 ## 📄 License
 
-This is a personal project for development and portfolio purposes.
-
----
-
-## ⭐ Support the Project
-
-If you find this project helpful or interesting, please consider giving it a star on GitHub! Your support helps me continue to improve and maintain the project.
+This project is created for portfolio and learning purposes.
 
 ---
 
 ## 👨‍💻 Author
 
 **Krisha Jasani**
-- GitHub: [@krisha2551](https://github.com/krisha2551)
-- LinkedIn: [Krisha Jasani](https://www.linkedin.com/in/krishajasani/)
----
+
+Full Stack MERN Developer
+
+Passionate about building scalable web applications and continuously learning new technologies.
